@@ -1,0 +1,35 @@
+---
+:source:
+  :path: test
+  :file: test_InyectorControl.c
+:successes:
+- :test: test_DefaultStateAfterInit
+  :line: 84
+  :message: ''
+- :test: test_AnUnhandledEventDoesNotChangeState
+  :line: 92
+  :message: ''
+- :test: test_StateTransitionTableForOff
+  :line: 101
+  :message: ''
+- :test: test_StateTransitionTableForStarting
+  :line: 110
+  :message: ''
+- :test: test_StateTransitionTableForIdleSpeed
+  :line: 120
+  :message: ''
+- :test: test_StateTransitionTableForNormal
+  :line: 135
+  :message: ''
+- :test: test_StateTransitionTableForNormal_UnhandledEvents
+  :line: 150
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 7
+  :passed: 7
+  :failed: 0
+  :ignored: 0
+:stdout:
+- ''

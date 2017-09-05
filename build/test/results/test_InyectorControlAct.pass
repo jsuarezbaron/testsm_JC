@@ -1,0 +1,29 @@
+---
+:source:
+  :path: test
+  :file: test_InyectorControlAct.c
+:successes:
+- :test: test_SetInitialValuesAfterInit
+  :line: 99
+  :message: ''
+- :test: test_SetDutyTo50ForAWhileOnStart
+  :line: 118
+  :message: ''
+- :test: test_CheckPressedThrottle
+  :line: 131
+  :message: ''
+- :test: test_SetDutyLinearlyWithThrottle
+  :line: 158
+  :message: ''
+- :test: test_IncrementDutyForColdEngine
+  :line: 188
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 5
+  :passed: 5
+  :failed: 0
+  :ignored: 0
+:stdout:
+- ''
